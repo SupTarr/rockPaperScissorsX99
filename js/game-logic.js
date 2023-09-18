@@ -83,36 +83,55 @@ const getMoveWinner = (
 };
 
 const getRoundWinner = (round) => {
-  if (
-    !isValidType(playerOneMoveOneType) ||
-    !isValidValue(playerOneMoveOneValue) ||
-    !isValidType(playerTwoMoveOneType) ||
-    !isValidValue(playerTwoMoveOneValue)
-  ) {
-    return null;
-  }
   switch (round) {
     case 1:
-      return getMoveWinner(
-        playerOneMoveOneType,
-        playerOneMoveOneValue,
-        playerTwoMoveOneType,
-        playerTwoMoveOneValue
-      );
+      if (
+        !isValidType(playerOneMoveOneType) ||
+        !isValidValue(playerOneMoveOneValue) ||
+        !isValidType(playerTwoMoveOneType) ||
+        !isValidValue(playerTwoMoveOneValue)
+      ) {
+        return null;
+      } else {
+        return getMoveWinner(
+          playerOneMoveOneType,
+          playerOneMoveOneValue,
+          playerTwoMoveOneType,
+          playerTwoMoveOneValue
+        );
+      }
     case 2:
-      return getMoveWinner(
-        playerOneMoveTwoType,
-        playerOneMoveTwoValue,
-        playerTwoMoveTwoType,
-        playerTwoMoveTwoValue
-      );
+      if (
+        !isValidType(playerOneMoveTwoType) ||
+        !isValidValue(playerOneMoveTwoValue) ||
+        !isValidType(playerTwoMoveTwoType) ||
+        !isValidValue(playerTwoMoveTwoValue)
+      ) {
+        return null;
+      } else {
+        return getMoveWinner(
+          playerOneMoveTwoType,
+          playerOneMoveTwoValue,
+          playerTwoMoveTwoType,
+          playerTwoMoveTwoValue
+        );
+      }
     case 3:
-      return getMoveWinner(
-        playerOneMoveThreeType,
-        playerOneMoveThreeValue,
-        playerTwoMoveThreeType,
-        playerTwoMoveThreeValue
-      );
+      if (
+        !isValidType(playerOneMoveThreeType) ||
+        !isValidValue(playerOneMoveThreeValue) ||
+        !isValidType(playerTwoMoveThreeType) ||
+        !isValidValue(playerTwoMoveThreeValue)
+      ) {
+        return null;
+      } else {
+        return getMoveWinner(
+          playerOneMoveThreeType,
+          playerOneMoveThreeValue,
+          playerTwoMoveThreeType,
+          playerTwoMoveThreeValue
+        );
+      }
     default:
       return null;
   }
