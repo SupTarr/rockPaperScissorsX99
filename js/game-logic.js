@@ -26,7 +26,7 @@ const setPlayerMoves = (
   moveTwoType,
   moveTwoValue,
   moveThreeType,
-  moveThreeValue
+  moveThreeValue,
 ) => {
   if (
     !isValidType(moveOneType) ||
@@ -60,7 +60,7 @@ const getMoveWinner = (
   moveOneType,
   moveOneValue,
   moveTwoType,
-  moveTwoValue
+  moveTwoValue,
 ) => {
   if (moveOneType === moveTwoType) {
     if (moveOneValue === moveTwoValue) {
@@ -97,7 +97,7 @@ const getRoundWinner = (round) => {
           playerOneMoveOneType,
           playerOneMoveOneValue,
           playerTwoMoveOneType,
-          playerTwoMoveOneValue
+          playerTwoMoveOneValue,
         );
       }
     case 2:
@@ -113,7 +113,7 @@ const getRoundWinner = (round) => {
           playerOneMoveTwoType,
           playerOneMoveTwoValue,
           playerTwoMoveTwoType,
-          playerTwoMoveTwoValue
+          playerTwoMoveTwoValue,
         );
       }
     case 3:
@@ -129,7 +129,7 @@ const getRoundWinner = (round) => {
           playerOneMoveThreeType,
           playerOneMoveThreeValue,
           playerTwoMoveThreeType,
-          playerTwoMoveThreeValue
+          playerTwoMoveThreeValue,
         );
       }
     default:

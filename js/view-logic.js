@@ -209,14 +209,14 @@ $(document).ready(() => {
   $(".replay .button.human").on("click", () => {
     $("#winner").fadeOut(
       VIEW_TRANSITION_TIME,
-      startGame.bind(null, HUMAN_PLAYER_MODE)
+      startGame.bind(null, HUMAN_PLAYER_MODE),
     );
   });
 
   $(".replay .button.computer").on("click", () => {
     $("#winner").fadeOut(
       VIEW_TRANSITION_TIME,
-      startGame.bind(null, COMPUTER_PLAYER_MODE)
+      startGame.bind(null, COMPUTER_PLAYER_MODE),
     );
   });
 
@@ -250,7 +250,7 @@ $(document).ready(() => {
       $("#move-two-type").data("type"),
       Number($("#move-two-value").val()),
       $("#move-three-type").data("type"),
-      Number($("#move-three-value").val())
+      Number($("#move-three-value").val()),
     );
     $("#move-selection").fadeOut(VIEW_TRANSITION_TIME, () => {
       if (playerMode === COMPUTER_PLAYER_MODE) {

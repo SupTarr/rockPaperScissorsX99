@@ -122,7 +122,7 @@ describe("setPlayerMoves() - Edge Cases", function () {
       "paper",
       33,
       "scissors",
-      55
+      55,
     );
     setPlayerMoves(
       "Player One",
@@ -131,7 +131,7 @@ describe("setPlayerMoves() - Edge Cases", function () {
       "paper",
       undefined,
       "scissors",
-      55
+      55,
     );
     setPlayerMoves(
       "Player One",
@@ -140,7 +140,7 @@ describe("setPlayerMoves() - Edge Cases", function () {
       "paper",
       33,
       "scissors",
-      undefined
+      undefined,
     );
 
     should.equal(playerOneMoveOneType, undefined);
@@ -439,7 +439,7 @@ describe("BONUS: setComputerMoves()", function () {
 
     should.equal(
       playerTwoMoveOneValue + playerTwoMoveTwoValue + playerTwoMoveThreeValue,
-      99
+      99,
     );
   });
 });

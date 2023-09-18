@@ -40,7 +40,7 @@ To complete this project, your code will need to contain the following:
 - A function called `getRoundWinner`, which takes a round number (`1`, `2`, or `3`), compares both player's move types and values for that round, and returns the appropriate winner (`'Player One'`, `'Player Two'`, or `'Tie'`)
 
 - A function called `getGameWinner`, which compares both player's move
-types and values for the whole game and returns the appropriate winner (`'Player One'`, `'Player Two'`, or `'Tie'`)
+  types and values for the whole game and returns the appropriate winner (`'Player One'`, `'Player Two'`, or `'Tie'`)
 
 - Bonus: A function called `setComputerMoves`, which chooses three random moves for player two. The move type for each move should be completely random, and the move values should be random but add up to 99.
 
@@ -49,7 +49,7 @@ JavaScript code that uses new syntax (you will learn more about this later),
 so you will need to use the most up-to-date version of Chrome to ensure your code runs correctly. If your
 version of Chrome is too old, correctly-written code may still not run as expected.
 
-*Disclaimer*: If you have prior JavaScript or programming experience, you might be able to come up with an implementation that uses language features or best practices that we haven't yet covered in Build Web APIs From Scratch. The implementation details and the tests for this project require a specific implementation based upon the material covered so far: JS types, variables, functions, and scope, but not topics that will be covered in later units.
+_Disclaimer_: If you have prior JavaScript or programming experience, you might be able to come up with an implementation that uses language features or best practices that we haven't yet covered in Build Web APIs From Scratch. The implementation details and the tests for this project require a specific implementation based upon the material covered so far: JS types, variables, functions, and scope, but not topics that will be covered in later units.
 
 As the projects in the Intensive continue, the project specifications and tests will become less granular, allowing you to implement the required functionality on your own.
 
