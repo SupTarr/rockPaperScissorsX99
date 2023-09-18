@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rock Paper Scissors x99</title>
 
     <link rel="stylesheet" type="text/css" href="./css/reset.css" />
@@ -22,7 +24,9 @@
   <body>
     <!-- Logo -->
 
-    <div id="logo"><img src="./img/logo.svg" /></div>
+    <div id="logo">
+      <img src="./img/logo.svg" alt="rock papaer scissor x99 banner" />
+    </div>
 
     <!-- Game Start Screen -->
 
@@ -47,48 +51,61 @@
         <div class="move">
           <h3>Move 1</h3>
           <div class="type-selection">
-            <img class="left" src="./img/left.svg" />
+            <img class="left" src="./img/left.svg" alt="left arrow" />
             <div data-type="rock" id="move-one-type" class="type">
-              <img class="icon" src="./img/rock.svg" />
+              <img class="icon" src="./img/rock.svg" alt="rock" />
               <span class="name">rock</span>
             </div>
-            <img class="right" src="./img/right.svg" />
+            <img class="right" src="./img/right.svg" alt="right arrow" />
           </div>
           <div class="strength">
-            <h4>STRENGTH:</h4>
-            <input value="0" id="move-one-value" class="value" type="number" />
+            <label for="move-one-value">STRENGTH:</label>
+            <input
+              value="0"
+              id="move-one-value"
+              name="move-one-value"
+              class="value"
+              type="number"
+            />
           </div>
         </div>
         <div class="move">
           <h3>Move 2</h3>
           <div class="type-selection">
-            <img class="left" src="./img/left.svg" />
+            <img class="left" src="./img/left.svg" alt="left arrow" />
             <div data-type="paper" id="move-two-type" class="type">
-              <img class="icon" src="./img/paper.svg" />
+              <img class="icon" src="./img/paper.svg" alt="paper" />
               <span class="name">paper</span>
             </div>
-            <img class="right" src="./img/right.svg" />
+            <img class="right" src="./img/right.svg" alt="right arrow" />
           </div>
           <div class="strength">
-            <h4>STRENGTH:</h4>
-            <input value="0" id="move-two-value" class="value" type="number" />
+            <label for="move-two-value">STRENGTH:</label>
+            <input
+              value="0"
+              id="move-two-value"
+              name="move-two-value"
+              class="value"
+              type="number"
+            />
           </div>
         </div>
         <div class="move">
           <h3>Move 3</h3>
           <div class="type-selection">
-            <img class="left" src="./img/left.svg" />
+            <img class="left" src="./img/left.svg" alt="left arrow" />
             <div data-type="scissors" id="move-three-type" class="type">
-              <img class="icon" src="./img/scissors.svg" />
+              <img class="icon" src="./img/scissors.svg" alt="scissors" />
               <span class="name">scissors</span>
             </div>
-            <img class="right" src="./img/right.svg" />
+            <img class="right" src="./img/right.svg" alt="right arrow" />
           </div>
           <div class="strength">
-            <h4>STRENGTH:</h4>
+            <label for="move-three-value">STRENGTH:</label>
             <input
               value="0"
               id="move-three-value"
+              name="move-three-value"
               class="value"
               type="number"
             />
@@ -108,7 +125,7 @@
         <div class="player-one move">
           <h3>Player 1 Move</h3>
           <div class="type">
-            <img class="icon" src="./img/rock.svg" />
+            <img class="icon" src="./img/rock.svg" alt="rock" />
             <span class="name">Rock</span>
           </div>
           <span class="attack">70 Attack Points</span>
@@ -116,7 +133,7 @@
         <div class="player-two move">
           <h3>Player 2 Move</h3>
           <div class="type">
-            <img class="icon" src="./img/rock.svg" />
+            <img class="icon" src="./img/rock.svg" alt="rock" />
             <span class="name">Rock</span>
           </div>
           <span class="attack">70 Attack Points</span>
@@ -130,9 +147,9 @@
     <!-- Winner Screen -->
 
     <div id="winner">
-      <img class="stars" src="./img/stars.svg" />
-      <img class="desktop" src="./img/banner.svg" />
-      <img class="mobile" src="./img/mobile_banner.svg" />
+      <img class="stars" src="./img/stars.svg" alt="stars" />
+      <img class="desktop" src="./img/banner.svg" alt="banner" />
+      <img class="mobile" src="./img/mobile_banner.svg" alt="mobile banner" />
       <h2>PLAYER 1 IS THE WINNER!</h2>
       <h3>Do you want to play again?</h3>
       <div class="player-select replay">
