@@ -2,13 +2,13 @@
 
 body {
   background-color: #ed9148;
-  font-family: 'Bungee', cursive;
+  font-family: "Bungee", cursive;
   font-size: 16px;
   margin-bottom: 6rem;
 }
 
 h2 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   letter-spacing: 1.1px;
   text-align: center;
 }
@@ -19,7 +19,7 @@ h2 {
   top: 0;
   display: inline-block;
   text-align: center;
-  transition: .125s;
+  transition: 0.125s;
 }
 
 .button:hover {
@@ -119,7 +119,7 @@ h2 {
 .remaining-strength .title {
   width: 24.3125rem;
   margin-right: 1rem;
-  padding: .875rem 0;
+  padding: 0.875rem 0;
   font-size: 1.875rem;
   background-color: #c05b3f;
   text-align: center;
@@ -127,7 +127,7 @@ h2 {
 }
 
 .remaining-strength .points {
-  margin-top: .625rem;
+  margin-top: 0.625rem;
   border: solid 6px #c05b3f;
   padding: 1.29rem 2rem;
   font-size: 2.8125rem;
@@ -163,8 +163,8 @@ h2 {
   position: relative;
   left: 0;
   right: 0;
-  transition: .175s;
-  padding: 1.5rem .75rem;
+  transition: 0.175s;
+  padding: 1.5rem 0.75rem;
 }
 
 .move .type-selection .left:hover {
@@ -184,7 +184,7 @@ h2 {
   height: 14.75rem;
   background-color: #3b3a36;
   box-shadow: 0 2px 4px 0 rgba(5, 5, 5, 0.5);
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.25rem;
   color: #ed9148;
 }
@@ -194,7 +194,7 @@ h2 {
 }
 
 .move .type .name {
-  margin-bottom: .75rem;
+  margin-bottom: 0.75rem;
 }
 
 .move .strength {
@@ -209,8 +209,8 @@ h2 {
   color: #3b3a36;
 }
 
-.move .strength h4 {
-  margin-bottom: .375rem;
+.move .strength label {
+  margin-bottom: 0.375rem;
   font-size: 1.125rem;
 }
 
@@ -235,7 +235,7 @@ h2 {
   background-color: #fff;
   box-shadow: 0 5px #c05b3f;
   font-size: 1.875rem;
-  letter-spacing: .4px;
+  letter-spacing: 0.4px;
   color: #c4593c;
 }
 
@@ -261,8 +261,8 @@ h2 {
   }
 
   .remaining-strength .points {
-    padding-top: .5rem;
-    padding-bottom: .5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
   }
 
   #move-selection .moves {
@@ -312,7 +312,7 @@ h2 {
 .winner {
   display: none;
   margin: 0 7%;
-  border-bottom: solid 4px #c05b3f;;
+  border-bottom: solid 4px #c05b3f;
   text-align: center;
   font-size: 3.75rem;
   letter-spacing: 2.1px;
@@ -343,7 +343,7 @@ h2 {
 
   .winner .text {
     top: 16px;
-    padding: 0 .5rem;
+    padding: 0 0.5rem;
     background-color: #ed9148;
   }
 }
@@ -368,7 +368,7 @@ h2 {
 #winner h2 {
   position: relative;
   top: -92px;
-  font-family: 'Bungee', cursive;
+  font-family: "Bungee", cursive;
   font-size: 3.125rem;
   color: #e16a40;
   text-shadow: 3px 0 #92402a;
@@ -376,7 +376,7 @@ h2 {
 
 #winner h3 {
   margin-bottom: 2.6875rem;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 3.125rem;
   font-weight: 300;
   letter-spacing: 1.1px;
